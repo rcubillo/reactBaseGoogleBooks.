@@ -1,61 +1,68 @@
-#  :blue_book: React-Base Google Books :blue_book:.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Overview
+## Available Scripts
 
-This is a React-based Google Books Search app. Using Node, Express and MongoDB so that users can save books to review or purchase later.
+In the project directory, you can run:
 
+### `npm start`
 
-### Instructions
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-* This application has 2 pages:
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-  * [Search] - User can search for books via the Google Books API and render them here. User has the option to "View" a book, bringing them to the book on Google Books, or "Save" a book, saving it to the Mongo database.
+### `npm test`
 
-  * [Saved] - Renders all books saved to the Mongo database. User has an option to "View" the book, bringing them to the book on Google Books, or "Delete" a book, removing it from the Mongo database.
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. This app will connect to a MongoDB database named `googlebooks` using the mongoose npm package.
+### `npm run build`
 
-3. Using mongoose, then create a Book schema.
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-4. Each book should have each of the following fields:
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-* `title` - Title of the book from the Google Books API
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-* `authors` - The books's author(s) as returned from the Google Books API
+### `npm run eject`
 
-* `description` - The book's description as returned from the Google Books API
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-* `image` - The Book's thumbnail image as returned from the Google Books API
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-* `link` - The Book's information link as returned from the Google Books API
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-5. Create a layout similar to the mockups displayed above. This should be a SPA (Single Page Application) that uses [`react-router-dom`](https://github.com/reactjs/react-router) to navigate, hide and show your React components without changing the route within Express.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-* The layout should include at least two React Components for each page `Search` and `Saved`.
+## Learn More
 
-* Feel free to try out alternative CSS framework to Bootstrap.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-6. Add the following Express routes for your app:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-* `/api/books` (get) - Should return all saved books as JSON.
+### Code Splitting
 
-* `/api/books` (post) - Will be used to save a new book to the database.
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-* `/api/books/:id` (delete) - Will be used to delete a book from the database by Mongo `_id`.
+### Analyzing the Bundle Size
 
-* `*` (get) - Will load your single HTML page in `client/build/index.html`. 
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-* This application was deployed to Heroku.
+### Making a Progressive Web App
 
-  ## Contributing Guidelines
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-All contributions and suggestions are welcome! For direct contributions, please fork the repository and file a pull request.
+### Advanced Configuration
 
-## Contact
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-Full-stack Web Software Developer
-   
- * :email: E-mail: ronaldcubillo92@gmail.com
- * [Twitter](https://twitter.com/rcubillo92)
- * [LinkedIn](https://linkedin.com/in/ronald-cubillo/)
+### Deployment
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
