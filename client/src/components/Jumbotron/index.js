@@ -1,13 +1,18 @@
 import React from "react";
+// import "./style.css";
 
-function Jumbotron({ children }) {
+function Jumbotron() {
   return (
-    <div
-      style={{ height: 300, clear: "both", paddingTop: 120, textAlign: "center" }}
-      className="jumbotron"
-    >
-      {children}
-    </div>
+    <header className="jumbobox">
+      <div className="container h-100">
+        <div className="row h-100 align-items-center">
+          <div className="col-12 text-center">
+            <h1 className="font-weight-light">React Google Books Search</h1>
+            <p className="lead">Search for and Save Books of Interest</p>
+          </div>
+        </div>
+      </div>
+    </header>
   );
 }
 
