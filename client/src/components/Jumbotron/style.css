@@ -1,0 +1,8 @@
+.jumbobox {
+    height: 50vh;
+    min-height: 100px;
+    background-image: url('https://cdn.wallpapersafari.com/56/47/3eNABc.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
