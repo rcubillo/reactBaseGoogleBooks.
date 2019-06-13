@@ -59,21 +59,15 @@ class SavedContainer extends Component {
                         <a href={object.infoLink}><span> Info Link </span></a>|
                   {/* <span> Delete</span> */}
 
-                {/* {this.state.books.map(book => {
+                {this.state.books.map(object => {
                   return (
-                    <DeleteBtn onClick={() => this.deleteBook(book._id)} />
-                  );
-                })} */}
-                </span>
-              </div>
-               {this.state.books.map(book => {
-                  return (
-                    <DeleteBtn onClick={() => this.deleteBook(book._id)} />
+                    <DeleteBtn onClick={() => this.deleteBook(object._id)} />
                   );
                 })}
+                </span>
+              </div>
             </>
           )
-
         })}</span>
       </>
     )
