@@ -54,7 +54,7 @@ class SavedContainer extends Component {
                 <img src={object.image} alt="book" />
                 <p >{object.description}</p>
                 <span>
-                  <a href={object.previewLink}><span>Preview Link </span></a>|
+                  {/* <a href={object.previewLink}><span>Preview Link </span></a>| */}
                         <a href={object.infoLink}><span> Info Link </span></a>|
                   <span> Delete</span>
                 </span>
