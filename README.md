@@ -39,9 +39,6 @@ This is a React-based Google Books Search app.
 * `link` - The Book's information link as returned from the Google Books API
 ```
 
-* Creating `documents` in your `books` collection similar to the following:
-
-
   ## Contributing Guidelines
 
 All contributions and suggestions are welcome! For direct contributions, please fork the repository and file a pull request.
@@ -49,8 +46,8 @@ All contributions and suggestions are welcome! For direct contributions, please 
 ## Contact
 
 Full-stack Web Software Developer
-   
+  ```
  * :email: E-mail: ronaldcubillo92@gmail.com
  * [Twitter](https://twitter.com/rcubillo92)
  * [LinkedIn](https://linkedin.com/in/ronald-cubillo/)
-
+```
