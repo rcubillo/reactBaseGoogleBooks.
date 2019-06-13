@@ -66,11 +66,14 @@ class SavedContainer extends Component {
                 })} */}
                 </span>
               </div>
-            </>
-          )
-           return (
+               {this.state.books.map(book => {
+                  return (
                     <DeleteBtn onClick={() => this.deleteBook(book._id)} />
                   );
+                })}
+            </>
+          )
+
         })}</span>
       </>
     )
