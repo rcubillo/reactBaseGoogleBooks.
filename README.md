@@ -46,8 +46,8 @@ All contributions and suggestions are welcome! For direct contributions, please 
 ## Contact
 
 Full-stack Web Software Developer
-  ```
+
  * :email: E-mail: ronaldcubillo92@gmail.com
  * [Twitter](https://twitter.com/rcubillo92)
  * [LinkedIn](https://linkedin.com/in/ronald-cubillo/)
-```
+
