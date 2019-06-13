@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import API from "../../utils/API"
+import DeleteBtn from "../../components/DeleteBtn/index";
 
 
 class SavedContainer extends Component {
@@ -56,7 +57,17 @@ class SavedContainer extends Component {
                 <span>
                   {/* <a href={object.previewLink}><span>Preview Link </span></a>| */}
                         <a href={object.infoLink}><span> Info Link </span></a>|
-                  <span> Delete</span>
+                  {/* <span> Delete</span> */}
+
+                {this.state.books.map(book => {
+                  return (
+
+
+                      <DeleteBtn onClick={() => this.deleteBook(book._id)} />
+
+                  );
+                })}
+
                 </span>
               </div>
             </>
