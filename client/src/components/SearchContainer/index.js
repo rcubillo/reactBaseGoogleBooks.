@@ -25,7 +25,7 @@ function SearchContainer(props) {
                     <span>
                         {/* <a href={volumeInfo.previewLink}><span>Preview Link </span></a>| */}
                         <a href={volumeInfo.infoLink} className="btn btn-primary btn-lg active" role="button" aria-pressed="true" ><span> Info Link </span></a>|
-                        <button><span onClick={() => saveBook(i)}> Save</span></button>
+                        <span onClick={() => saveBook(i)}> Save</span>
                     </span>
                 </div>)
             })}
